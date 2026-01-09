@@ -49,9 +49,7 @@
 
 /* header-section */
 header {
-  /* border: 1px solid red; */
   padding: 16px 120px;
-  /* width: 100%; */
 }
 header nav {
   display: flex;
@@ -74,15 +72,12 @@ nav ul a {
 #banner {
   display: flex;
   height: 500px;
-  /* margin: 0 auto; */
-  /* padding: 100px 100px; */
+
   background: url(../assets/hero-bg.png);
   background-repeat: no-repeat;
   padding-top: 100px;
 }
 .banner-content {
-  /* border: 1px solid red; */
-  /* width: 1360px; */
   margin: 0 auto;
   text-align: center;
 }
@@ -108,8 +103,6 @@ nav ul a {
 
 /* notes-section */
 #notes {
-  /* border: 1px solid red; */
-  /* width: 1360px; */
   margin: 0 auto;
   background-color: #f3f4f5;
 }
@@ -135,7 +128,6 @@ nav ul a {
   gap: 24px;
 }
 .card {
-  /* border: 1px solid black; */
   width: 275px;
   height: 200px;
   justify-content: center;
@@ -163,24 +155,14 @@ nav ul a {
 
 /* brain-section */
 #brain {
-  /* width: 100%; */
   padding: 0 7.5rem;
   height: 600px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* gap: 200px; */
-  /* border: 1px solid red; */
-  /* background-color: red; */
 }
-.brain-image {
-  /* width: 400px; */
-  /* height: 400px; */
-}
-.brain-content {
-  /* border: 1px solid red; */
-}
+
 #brain .brain-content h2 {
   font-size: 48px;
   font-weight: 700;
@@ -204,7 +186,6 @@ nav ul a {
 
 /* early-access-section */
 #early-access {
-  /* border: 1px solid red; */
   width: 1140px;
   margin: 10rem auto;
   text-align: center;
@@ -224,20 +205,16 @@ nav ul a {
 
 /* footer-section */
 #footer {
-  /* height: 300px; */
   background: #184459;
-  /* padding: 100px; */
-  /* align-items: center; */
 }
 #footer .footer-content {
   height: 200px;
   width: 1140px;
-  /* border: 1px solid white; */
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  /* padding: 100px; */
 }
 #footer .footer-content h5 {
   color: #ffffff;
@@ -245,9 +222,9 @@ nav ul a {
   font-weight: 500;
   margin-bottom: 8px;
 }
-#footer .footer-content, .copy-right {
+#footer .footer-content,
+.copy-right {
   font-size: 16px;
   color: #a9b7c4;
   text-align: center;
-
 }
